@@ -1,0 +1,47 @@
+CRITICAL - 2022-05-23 06:57:36 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:58:09 --> Could not check compatibility between App\Controllers\Categorias::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-23 06:58:10 --> Could not check compatibility between App\Controllers\Categorias::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-23 06:58:11 --> Could not check compatibility between App\Controllers\Categorias::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-23 06:58:41 --> syntax error, unexpected token "endif"
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:58:44 --> syntax error, unexpected token "endif"
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 07:04:12 --> Unclosed '{' on line 3
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 07:04:13 --> Unclosed '{' on line 3
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 07:05:03 --> Could not check compatibility between App\Controllers\Categorias::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
