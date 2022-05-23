@@ -64,7 +64,7 @@ class Categorias extends BaseController {
             }
         }
         $data['categoria'] = $categoria;
-        echo view('categorias_form', $data); // o inserir abre vazio para cadastrar e o editar abre ja com os dados cadastrados para editar
+        echo view('categorias_form', $data); // o inserir abre vazio para cadastrar e o editar abre ja com os dados cadastrados para editar\fwlink\
     }
 
     public function excluir ($id = null) {
@@ -72,7 +72,7 @@ class Categorias extends BaseController {
             // redirecionar a aplicação para o categorias/index
             //definir uma mensagem via session
             $this->session->setFlashdata('msg', 'Categoria não encontrada'); //criar uma variável na sessao, e quando acessar ela pela 1 vez ela é excluida, ela guarda.
-            return redirect()->to(base_url('categorias'));
+            return redirect()->to('http://localhost/ci4app/public/categorias/');
         }
     }
 }
