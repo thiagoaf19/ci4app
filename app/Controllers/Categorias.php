@@ -39,7 +39,7 @@ class Categorias extends BaseController {
 
         if($this->request->getMethod() === 'post'){
             $categoriaModel = new \App\Models\CategoriaModel();
-            $categoriaModel->set('nomecategoria', $this->request->getPost('nomecategoria'));
+            $categoriaModel->set('nomecategoria', $this->request->getPost('nomecategoria')); // quando é apenas uma coluna a setar.
         
             if($categoriaModel->insert()){
                 // deu certo

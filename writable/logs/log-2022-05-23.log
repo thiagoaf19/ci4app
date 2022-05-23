@@ -106,3 +106,28 @@ CRITICAL - 2022-05-23 08:40:36 --> Unmatched '}'
 #3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2022-05-23 10:00:14 --> Undefined variable $listaCategorias
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Produtos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(832): App\Controllers\Produtos->inserir()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-23 12:33:47 --> Table 'ci4app.proudto' doesn't exist
+CRITICAL - 2022-05-23 12:33:47 --> Table 'ci4app.proudto' doesn't exist
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\ci4app\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4app\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4app\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('Mouse', 'nomeproduto', Array, NULL)
+#6 C:\xampp\htdocs\ci4app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nomeproduto', 'nomeproduto', 'Mouse', Array, Array)
+#7 C:\xampp\htdocs\ci4app\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#8 C:\xampp\htdocs\ci4app\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#9 C:\xampp\htdocs\ci4app\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#10 C:\xampp\htdocs\ci4app\app\Controllers\Produtos.php(25): CodeIgniter\Model->insert(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(832): App\Controllers\Produtos->inserir()
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
