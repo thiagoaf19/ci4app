@@ -23,7 +23,7 @@
                 <td><?php echo $categoria->id ?></td> 
                 <td><?php echo $categoria->nomecategoria ?></td>
                 <td><a href="<?php echo 'http://localhost/ci4app/public/categorias/editar/' . $categoria->id ?>">Editar</a></td>
-                <td><a href="<?php echo 'http://localhost/ci4app/public/categorias/eexcluir/' . $categoria->id ?>">Excluir</a></td>
+                <td><a href="<?php echo 'http://localhost/ci4app/public/categorias/excluir/' . $categoria->id ?>">Excluir</a></td>
             </tr>
             <?php endforeach ?>
         </table>
